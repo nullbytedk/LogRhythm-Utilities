@@ -1,10 +1,10 @@
 # LogRhythm Archive Management
 ## ArchiveManagement.ps1
 
-###SYNOPSIS
+### SYNOPSIS
 Utility to manage LogRhythm Archives files
 
-###DESCRIPTION
+### DESCRIPTION
 **DISCLAIMER: Deleting Inactive Archives is NOT advised, ever!**
 
 For storage or compliance reasons you may wish to automatically delete or move InactiveArchives after a certain period of time.   
@@ -24,20 +24,20 @@ Default values:
 1. Files older than 7 days will be moved to the backup location.
 2. Files older than 366 days will be deleted from the backup location.
 
-###EXAMPLE
+### EXAMPLE
 ```
 .\ArchiveManagement.ps1 -source "C:\LogRhythmArchives\Inactive" -destination "C:\BackupArchives"
 ```
 
-###PARAMETER source
+### PARAMETER source
 The path to the LogRhythm Inactive Archives folder
 
-###PARAMETER destination
+### PARAMETER destination
 The path to the location where you want to move the inactive archives too
 
-###PARAMETER deleteHost
+### PARAMETER deleteHost
 The name of the host which will be responsible of deleting old backed up files from the backup location
 
-###NOTES
+### NOTES
 Author: Mathias Nordahl
 Revision: 1.0
