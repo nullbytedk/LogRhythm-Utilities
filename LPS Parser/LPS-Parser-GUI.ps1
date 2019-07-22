@@ -7,6 +7,8 @@
     Author: Mathias Nordahl Rasmussen
     Date:   May 15, 2019   
     Revision: 1.0 
+.LINK
+    https://github.com/nullbytedk/LogRhythm-Utilities/blob/master/LPS%20Parser/LPS-Parser-GUI.ps1
 #>
 
 $global:statistics = $null
